@@ -2,6 +2,7 @@ import React from 'react'
 import "./about.css";
 
 import codingImg from "../../../images/assets/coding.png";
+import SocialContact from '../../Common/Social-Contact';
 
 function About() {
   return (
@@ -17,11 +18,9 @@ function About() {
            <img src={codingImg} alt="" />
         </div>
       </div>
-      <div className="about-bottom">
-        This is contacts
-      </div>
+      <SocialContact />
     </div>
   )
-}
+};
 
 export default About;
