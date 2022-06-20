@@ -18,7 +18,7 @@
 
 .info-name {
   font-size: 32px;
-  color: blue;
+  color: red;
 }
 
 @media screen and (max-width: 720px) {

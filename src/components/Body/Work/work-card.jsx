@@ -11,10 +11,12 @@ function WorkCard({company}) {
             
             <div className='work_company-duration' > {company.worked_till} </div>
         </div>
+        {
+          company.work_did_in_company && company.work_did_in_company.map(description => {
+            return <li className='work_company-description'> { description } </li>
+          })
+        }
         
-        <div className='work_company-description' >
-            {company.work_did_in_company}
-        </div>
     </div>
   )
 };

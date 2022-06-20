@@ -9,10 +9,10 @@ function About() {
     <div className='about' >
       <div className="about-top">
         <div className="about-info">
-          Hello ther iam 
+          Hello ther iam a
           <br /> 
-          <span className='info-name' > Random Guy. </span> 
-          <br /> i love experementing with web.
+          <span className='info-name' > Web Developer. </span> 
+          <br /> i love to learn and experiment with Tech
         </div>
         <div className="about-photo">
            <img src={codingImg} alt="" />

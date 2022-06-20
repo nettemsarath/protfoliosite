@@ -9,7 +9,7 @@ function SocialContact() {
       {
         data.map((item, index)=> {
           return (
-            <a href={item.link} >
+            <a href={item.link} target="_blank" >
               <div className='social-icon-div' >
                 <img src={item.icon} />
               </div>

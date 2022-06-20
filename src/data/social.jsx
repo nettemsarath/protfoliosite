@@ -1,33 +1,29 @@
 import Instagram from "../images/Icons/instagram.png";
-import Facebook from "../images/Icons/facebook.png";
-import Github from "../images/Icons/github.png";
-import Linkedin from "../images/Icons/linkedin.png";
-import Twitter from "../images/Icons/twitter.png";
+import FacebookIcon from "../images/Icons/facebook.png";
+import GithubIcon from "../images/Icons/github.png";
+import LinkedinIcon from "../images/Icons/linkedin.png";
+import hackerrankIcon from "../images/Icons/hackerrank.png";
+import mediumIcon from "../images/Icons/medium.png";
 
 export const SocialData = [
   {
-    platform: "Instagram",
-    link: "",
-    icon: Instagram
-  },
-  {
-    platform: "Facebook",
-    link: "",
-    icon: Facebook
+    platform: "HackerRank",
+    link: "https://www.hackerrank.com/nettemsarath1",
+    icon: hackerrankIcon
   },
   {
     platform: "Github",
-    link: "",
-    icon: Github
+    link: "https://github.com/nettemsarath",
+    icon: GithubIcon
   },
   {
     platform: "Linkedin",
-    link: "",
-    icon: Linkedin
+    link: "https://www.linkedin.com/in/nettemsarath/",
+    icon: LinkedinIcon
   },
   {
-    platform: "Twitter",
-    link: "",
-    icon: Twitter
+    platform: "Medium",
+    link: "https://medium.com/@nettemsarath1",
+    icon: mediumIcon
   },
 ];

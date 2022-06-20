@@ -1,0 +1,27 @@
+.contact_social-icons img {
+  width: 35px;
+}
+
+.contact_social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.7rem;
+}
+
+.contact_details {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.contact_downloadresume {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact_downloadresume img {
+  height: 30px;
+}
