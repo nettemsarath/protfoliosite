@@ -22,7 +22,7 @@ function Body() {
       <section id="work" >
         <Work />
       </section>
-      <section id="acheivements" >
+      <section id="awards" >
         <Acheivements />
       </section>
       <section id="contact" >

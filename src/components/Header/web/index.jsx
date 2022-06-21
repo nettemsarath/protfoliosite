@@ -5,6 +5,7 @@ import breifcaseIcon from "../../../images/briefcase.png";
 import editIcon from "../../../images/edit.png";
 import laptopIcon from "../../../images/laptop.png";
 import contactIcon from "../../../images/user.png";
+import acheivementIcon from "../../../images/acheivements.png"
 
 function Web() {
   return (
@@ -15,24 +16,35 @@ function Web() {
           Projects
         </a>
       </div>
+
       <div className="web_option">
         <a href='#skills'>
           <img src={laptopIcon} alt="" className="web_option-icon" />
           Skills
         </a>
       </div>
+
       <div className="web_option">
         <a href='#work' >
           <img src={breifcaseIcon} alt="" className="web_option-icon" />
           Work
         </a>
       </div>
+
+      <div className="web_option">
+        <a href='#awards'>
+          <img src={acheivementIcon} alt="" className="web_option-icon" />
+          Awards
+        </a>
+      </div>
+
       <div className="web_option">
         <a href='#contact'>
           <img src={contactIcon} alt="" className="web_option-icon" />
           Contact
         </a>
       </div>
+
     </div>
   )
 }
