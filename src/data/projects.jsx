@@ -2,7 +2,7 @@ import project1 from "../images/assets/project1.png";
 import project2 from "../images/assets/project2.png";
 import AiIcon from "../images/assets/AI.png";
 import cryptoIcon from "../images/assets/crypto.png";
-import meditationIcon from "../images/assets/meditation.png";
+import meditationIcon from "../images/assets/meditation2.png";
 
 export const ProjectsData = [
     {

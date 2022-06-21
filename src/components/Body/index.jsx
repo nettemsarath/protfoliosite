@@ -5,6 +5,7 @@ import Contact from './Contact';
 import Projects from './Projects';
 import SKills from './Skills';
 import Work from './Work';
+import Acheivements from "./Acheivements";
 
 function Body() {
   return (
@@ -21,11 +22,14 @@ function Body() {
       <section id="work" >
         <Work />
       </section>
+      <section id="acheivements" >
+        <Acheivements />
+      </section>
       <section id="contact" >
         <Contact />
       </section>
     </div>
   )
-}
+};
 
 export default Body;
