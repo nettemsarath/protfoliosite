@@ -3,6 +3,7 @@ import React from 'react'
 import Seperator from "../../Common/Seperator";
 import SocialContact from '../../Common/Social-Contact';
 import downloadIcon from "../../../images/assets/download.png"
+import {resumeLink} from "../../../data/contact";
 
 import "./contact.css";
 
@@ -17,7 +18,7 @@ function Contact() {
         </div>
 
         <div>
-          <a href='https://drive.google.com/file/d/1V-Y4p7PtRPexEA3bgzvQKyLr3Uvy42lU' target="_blank" className='contact_downloadresume' >
+          <a href={resumeLink} target="_blank" className='contact_downloadresume' >
             <img src={downloadIcon} alt="" />
             <span> Download Resume  </span>
           </a>
