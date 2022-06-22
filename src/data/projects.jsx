@@ -10,7 +10,7 @@ export const ProjectsData = [
         title: "smartdhyana",
         about: `A Meditation Ring to Measure your Mindfulness and Track Heart Rate variabality (HRV) through Dhyana App. 
                 Dhyana identifies your inhale/exhale cycles and trains you to become a breathing champ. `,
-        tags: ["ReactJS", "NodeJS", "Mongodb", "Docker", "AWS", "S3", "Paypal", "Instamojo", "nginx", "Socket.IO", "Multer", "AppSignal" ],
+        tags: ["ReactJS", "NodeJS", "Mongodb", "Docker", "AWS", "S3", "Paypal", "Instamojo", "nginx", "Socket.IO", "Multer", "AppSignal", "Redis" ],
         demo: "https://www.smartdhyana.com/",
         image: meditationIcon
     },

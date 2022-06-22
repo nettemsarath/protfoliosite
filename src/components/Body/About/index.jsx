@@ -9,7 +9,7 @@ function About() {
     <div className='about' >
       <div className="about-top">
         <div className="about-info">
-          Hello there iam a
+          Hello there iam a 
           <br /> 
           <span className='info-name' > Web Developer. </span> 
           <br /> i love to learn and experiment with Tech
