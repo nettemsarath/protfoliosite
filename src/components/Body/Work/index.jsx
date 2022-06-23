@@ -7,7 +7,6 @@ import {CompaniesData} from "../../../data/work";
 import "./work.css";
 
 function Work() {
-  console.log("CompaniesData", CompaniesData);
   return (
     <div className='work' >
       <Seperator />
