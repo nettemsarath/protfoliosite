@@ -15,29 +15,47 @@ function Mobile({isOpen, setIsOpen}) {
       </div>
       <div className="mobile_options">
       <div className="mobile_option">
-        <a href='#projects' >
-          <img src={editIcon} alt="" className="mobile_option-icon" />
-          Projects
-        </a>
-      </div>
-      <div className="mobile_option">
-        <a href='#skills'>
-          <img src={laptopIcon} alt="" className="mobile_option-icon" />
-          Skills
-        </a>
-      </div>
-      <div className="mobile_option">
-        <a href='#work' >
-          <img src={breifcaseIcon} alt="" className="mobile_option-icon" />
-          Work
-        </a>
-      </div>
-      <div className="mobile_option">
-        <a href='#contact'>
-          <img src={contactIcon} alt="" className="mobile_option-icon" />
-          Contact
-        </a>
-      </div>
+          <a href='#skills' >
+            <img src={editIcon} alt="" className="mobile_option-icon" />
+            Skills
+          </a>
+        </div>
+
+        <div className="mobile_option">
+          <a href='#projects' >
+            <img src={editIcon} alt="" className="mobile_option-icon" />
+            Projects
+          </a>
+        </div>
+
+        <div className="mobile_option">
+          <a href='#projects' >
+            <img src={editIcon} alt="" className="mobile_option-icon" />
+            Projects
+          </a>
+        </div>
+
+        <div className="mobile_option">
+          <a href='#techstack'>
+            <img src={laptopIcon} alt="" className="mobile_option-icon" />
+            Techstack
+          </a>
+        </div>
+
+        <div className="mobile_option">
+          <a href='#work' >
+            <img src={breifcaseIcon} alt="" className="mobile_option-icon" />
+            Work
+          </a>
+        </div>
+
+        <div className="mobile_option">
+          <a href='#contact'>
+            <img src={contactIcon} alt="" className="mobile_option-icon" />
+            Contact
+          </a>
+        </div>
+
       </div>
     </div>
   )

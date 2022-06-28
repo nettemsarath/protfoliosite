@@ -11,6 +11,13 @@ function Web() {
   return (
     <div className='web' >
       <div className="web_option">
+        <a href='#skills' >
+          <img src={editIcon} alt="" className="web_option-icon" />
+          Skills
+        </a>
+      </div>
+
+      <div className="web_option">
         <a href='#projects' >
           <img src={editIcon} alt="" className="web_option-icon" />
           Projects
@@ -18,9 +25,9 @@ function Web() {
       </div>
 
       <div className="web_option">
-        <a href='#skills'>
+        <a href='#techstack'>
           <img src={laptopIcon} alt="" className="web_option-icon" />
-          Skills
+          Techstack
         </a>
       </div>
 

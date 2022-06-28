@@ -1,59 +1,6 @@
-import mongodbIcon from "../images/assets/mongodb.png";
-import nodejsIcon from "../images/assets/nodejs.png";
-import nginxIcon from "../images/assets/nginx.png";
-import dockerIcon from "../images/assets/docker.png";
-import AWSIcon from "../images/assets/aws.png";
-import javascriptIcon from "../images/assets/js.png";
-import reactJSIcon from "../images/assets/reactjs.png";
 
-const SkillsData = [
-    {
-        id: 1,
-        type: "Frontend",
-        list: [
-            {
-                id: 11,
-                name: "ReactJS",
-                icon: reactJSIcon
-            },
-            {
-                id: 12,
-                name: "Javascript",
-                icon: javascriptIcon
-            }
-        ]
-    }
-    ,{
-        id: 2,
-        type: "Backend",
-        list: [
-            {
-                id: 21,
-                name: "NodeJS",
-                icon: nodejsIcon
-            },
-            {
-                id: 22,
-                name: "Mongodb",
-                icon: mongodbIcon
-            },
-            {
-                id: 23,
-                name: "Docker",
-                icon: dockerIcon
-            },
-            {
-                id: 24,
-                name: "Nginx",
-                icon: nginxIcon
-            },
-            {
-                id: 25,
-                name: "AWS",
-                icon: AWSIcon
-            }
-        ]
-    }
-];
-
-export { SkillsData };
+export const SkillsData = {
+    FrameWorks: "NodeJS ( ExpressJS ), Reactjs and Redux-toolKit, MongoDB ( NoSql Database ), Docker, Nginx ",
+    AWS_Services: "AWS Services ( EC2 instance,  S3 Bucket, SES,  Lambda using serverless Framework,  Route53,  Load-balancer , Cognito,  cloudFront  )",
+    Others: "payment gateway integration , Database Backups, Centralized Error Log monitoring (using Appsignal)"
+}
