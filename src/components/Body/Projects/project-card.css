@@ -3,6 +3,7 @@
   flex: 1;
   justify-content: space-between;
   align-items: center;
+  margin: 1.5rem 0;
 }
 
 .project-photo {
@@ -58,7 +59,7 @@
 
 @media screen and (max-width: 720px) {
   .project-card {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .project-photo {
     width: 80%;
